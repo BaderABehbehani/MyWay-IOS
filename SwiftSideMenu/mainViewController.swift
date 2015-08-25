@@ -13,6 +13,8 @@ import GoogleMaps
 
 class mainViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate, ENSideMenuDelegate {
 
+    
+  //i
     var actionSheet = AHKActionSheet()
     
     var favBool:Bool = false
