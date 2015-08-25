@@ -170,7 +170,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="side_menu_icon.png" width="36" height="36"/>
+        <image name="side_menu_icon.png" width="128" height="128"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
