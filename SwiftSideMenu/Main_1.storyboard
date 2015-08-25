@@ -13,13 +13,9 @@
                         <viewControllerLayoutGuide type="bottom" id="UU7-wS-6yf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="k9F-3t-QWf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WAZ-x0-6fa" customClass="GMSMapView">
-                                <rect key="frame" x="0.0" y="120" width="324" height="405"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8c-JT-TqB">
                                 <rect key="frame" x="104" y="533" width="127" height="30"/>
                                 <state key="normal" title="Show ActionSheet">
@@ -29,30 +25,29 @@
                                     <action selector="showActionSheet:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1aE-rx-sEv"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WAZ-x0-6fa" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="64" width="320" height="460"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="SwiftSideMenu" id="sst-xC-s2B">
-                        <barButtonItem key="rightBarButtonItem" image="side_menu_icon.png" id="dKI-RO-t93">
-                            <connections>
-                                <action selector="menuButton:" destination="vXZ-lx-hvc" id="UEn-5V-s4I"/>
-                            </connections>
-                        </barButtonItem>
+                    <navigationItem key="navigationItem" title="SwiftSideMenu" id="AvD-RL-5ZD">
+                        <barButtonItem key="leftBarButtonItem" image="side_menu_icon.png" id="F65-fA-9nS"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="viewMap" destination="WAZ-x0-6fa" id="kEE-se-UPZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="99.5" y="243.5"/>
+            <point key="canvasLocation" x="99" y="242.99999999999997"/>
         </scene>
     </scenes>
     <resources>
-        <image name="side_menu_icon.png" width="36" height="36"/>
+        <image name="side_menu_icon.png" width="128" height="128"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
